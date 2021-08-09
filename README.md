@@ -1,2 +1,2 @@
 # Neogcamp-Build-Logic-Questions
- Practises of Build logic questions of neogcamp.
+ Practicing the questions of  Build logic of neogcamp.
