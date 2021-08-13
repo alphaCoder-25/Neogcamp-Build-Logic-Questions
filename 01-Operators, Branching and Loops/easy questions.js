@@ -60,14 +60,11 @@ if (num1 < num2 && num1 < num3) {
 
 // Q6.) Write a program to take a month as an input from the user and find out whether the month has 31 days or not.
 
-// Unsolved
-
 var readlineSync = require('readline-sync');
-const months = january; march; may; july; august; october; december;
 const month = readlineSync.question("Enter the month ");
 console.log("You entered ", month);
  
-if( month === january || march || may || july || august || october || december ) {
+if( month === 'january' || month === 'march' || month === 'may' || month === 'july' || month === 'august' || month === 'october' || month === 'december' ) {
     console.log("The given month has 31 days. ");
 } else {
     console.log("The given month has no 31 days. ");
